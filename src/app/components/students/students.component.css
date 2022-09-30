@@ -1,0 +1,15 @@
+table, th, td {
+  border: 1px solid;
+  padding: 3px;
+}
+table{
+  width: 30%;
+  margin: 2% auto;
+}
+h1{
+  background-color: darkseagreen;
+  color: brown;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}

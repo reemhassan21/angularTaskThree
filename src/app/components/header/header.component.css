@@ -1,0 +1,23 @@
+.act {
+  color: red;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display: inline;
+}
+a {
+  color: darksalmon;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+}
+#header {
+  background-color: darkseagreen;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

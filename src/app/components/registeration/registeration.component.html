@@ -1,0 +1,21 @@
+<h1>Registeration</h1>
+<div>
+  <form [formGroup]="validate">
+    <input formControlName="userName" type="text" [value]="name" [(ngModel)]="name" placeholder="Name">
+    <br>
+    <span *ngIf="!nameValidate ">
+      Name is REQUIRED
+    </span>
+    <br>
+    <input formControlName="userAge" type="text" [value]="age" [(ngModel)]="age" placeholder="Age">
+    <br>
+    <span *ngIf="!ageValidate">
+      Age MUST be in range(20-40)
+    </span>
+
+    <input type="button" value="Add" (click)="Add()">
+  </form>
+
+  <br>
+</div>
+

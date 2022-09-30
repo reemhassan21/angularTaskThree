@@ -1,0 +1,15 @@
+<h1>Students Data</h1>
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Age</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let d of students">
+      <td>{{ d.Name }}</td>
+      <td *ngIf="d.Age > 19 && d.Age < 41">{{ d.Age }}</td>
+    </tr>
+  </tbody>
+</table>

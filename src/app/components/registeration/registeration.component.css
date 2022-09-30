@@ -1,0 +1,31 @@
+div{
+  width: 30%;
+  margin: 2% auto;
+  background-color:darksalmon;
+  padding: 1%;
+}
+input[type=text]{
+  text-align: center;
+  margin: 1% 30%;
+}
+input[type=button]{
+  text-align: center;
+  margin: 1% 38%;
+  width: 22%;
+  background-color:cornsilk;
+  border-radius: 15px;
+}
+h1{
+  background-color: darkseagreen;
+  color: brown;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+span{
+  color: red;
+  width: 50%;
+  margin-left: 30%;
+  text-align: center;
+}
